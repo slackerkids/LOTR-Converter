@@ -30,7 +30,7 @@ struct ContentView: View {
                 Text("Currency Exchange")
                     .font(.largeTitle)
                     .foregroundStyle(.white)
-                    
+                
                 
                 // Currency conversion section
                 HStack {
@@ -108,6 +108,9 @@ struct ContentView: View {
                     .padding(.trailing)
                 }
             }
+        }
+        .sheet(isPresented: $showEchangeInfo) {
+            ExchangeInfo()
         }
     }
 }
