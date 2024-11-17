@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8B2011F92CEA259C00E9446E /* CurrencyTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2011F82CEA259C00E9446E /* CurrencyTip.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		8B2011F82CEA259C00E9446E /* CurrencyTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTip.swift; sourceTree = "<group>"; };
 		8B656F2C2CCF89BF00FC6260 /* LOTRConverter18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOTRConverter18.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		8B656F232CCF89BF00FC6260 = {
 			isa = PBXGroup;
 			children = (
+				8B2011F82CEA259C00E9446E /* CurrencyTip.swift */,
 				8B656F2E2CCF89BF00FC6260 /* LOTRConverter18 */,
 				8B656F2D2CCF89BF00FC6260 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B2011F92CEA259C00E9446E /* CurrencyTip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
